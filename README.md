@@ -1,5 +1,5 @@
-HarvardShuttle
-==============
+HarvardShuttle: Pure HTML5 + JS
+===============================================
 
 HarvardShuttle is a responsive web application designed for desktop, tablet, and mobile devices.  The latest version can be accessed at HarvardShuttle.org.
 
