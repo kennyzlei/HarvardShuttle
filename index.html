@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="HarvardShuttle : Web Application: Pure HTML5 + JS" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>HarvardShuttle</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/kennyzlei/HarvardShuttle">View on GitHub</a>
+
+          <h1 id="project_title">HarvardShuttle</h1>
+          <h2 id="project_tagline">Web Application: Pure HTML5 + JS</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/kennyzlei/HarvardShuttle/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/kennyzlei/HarvardShuttle/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>HarvardShuttle is a responsive web application designed for desktop, tablet, and mobile devices.  The latest version can be accessed at HarvardShuttle.org.</p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Once you visit HarvardShuttle.org, you will be prompted to share your location information.  If you provide your location data, HarvardShuttle will automatically determine the closest shuttle stop near you.  Once a shuttle stop is determined, HarvardShuttle will automatically provide the next shuttle arrival times and route information.  You can change or refine arrival time infomation by either changing the origin stop or adding an optional destination stop.  If both an origin and destination stop is selected, alternative walking route and time information is provided.  The web application refreshes shuttle information every 20 seconds.</p>
+
+<h2>
+<a name="web-technologies" class="anchor" href="#web-technologies"><span class="octicon octicon-link"></span></a>Web Technologies</h2>
+
+<p>HarvardShuttle.org is purely based on HTML5 + JS.  All scripts and rendering are completed on client-side for speed and efficiency.  JQuery was used frequently for writing JS.  Most custom JS resides in harvardshuttle.js file.</p>
+
+<h2>
+<a name="frameworks" class="anchor" href="#frameworks"><span class="octicon octicon-link"></span></a>Frameworks</h2>
+
+<p>Like almost every modern website on the internet, HarvardShuttle.org uses the Bootstrap by Twitter framework.  A modified version of bootstrap-select was used to stylize HTML select elements like dropdown menus.  Overall, very little customization was done on the framework.</p>
+
+<h2>
+<a name="apis" class="anchor" href="#apis"><span class="octicon octicon-link"></span></a>APIs</h2>
+
+<p>HarvardShuttle employs the Transloc Open API and Bing Maps API.  Transloc provides the latest GPS data and shuttle information.  Bing Maps was used to visualize geolocation as well as provide walking time estimates.</p>
+
+<h2>
+<a name="design-flow" class="anchor" href="#design-flow"><span class="octicon octicon-link"></span></a>Design Flow</h2>
+
+<ol>
+<li>Cache Stop and Route Information</li>
+<li>Request Arrival Estimates When Shuttle Stops Selected</li>
+<li>Provide Walking Estimates, if necessary</li>
+</ol><h2>
+<a name="faq" class="anchor" href="#faq"><span class="octicon octicon-link"></span></a>FAQ</h2>
+
+<p>What makes HarvardShuttle different from Shuttleboy?</p>
+
+<p>HarvardShuttle uses real-time GPS data to calculate and provide arrival time information.  Real-time information is more accurate and relevant than a scheduled time-table.  HarvardShuttle's interface is also designed to be navigated faster and more intuitively.</p>
+
+<p>What's next for HarvardShuttle?</p>
+
+<p>Right now, you can access HarvardShuttle as a web application at HarvardShuttle.org.  However, it is far more convenient to access a native application when using a mobile device.  HarvardShuttle Windows 8, Windows Phone, Android, and iOS applications will be coming soon.  ETA January 2013, in time for the start of spring seme</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">HarvardShuttle maintained by <a href="https://github.com/kennyzlei">kennyzlei</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
